@@ -6,6 +6,9 @@ body {
   font-weight: 500;
   -webkit-font-smoothing: antialiase
 }
+body {margin: 0;
+  padding: 0;
+}
 
 .Header {
   width: 100%;
@@ -51,10 +54,6 @@ a {
   width: auto;
 }
 
-image {
-  margin: 0;
-  padding: 0;
-}
 
 .HeaderNavList {
   align-items: center;
@@ -113,6 +112,10 @@ li {
   padding-bottom: 28px;
 }
 
+img{margin: 0;
+    padding: 0;
+}
+
 .FirstView__main-image--sp {
   display: none;
 }
@@ -124,12 +127,9 @@ li {
 .lazyload {
   background-image: none !important;
 }
-
 img {
-  border: 0;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0;
+    border: 0;
+    vertical-align: middle;
 }
 
 .FirstView__container {
